@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Clinic Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Frontend Live:** [https://clinic-frontend-sable-iota.vercel.app](https://clinic-frontend-sable-iota.vercel.app)  
+**Backend Live:** [https://clinic-backend-dtq1.onrender.com](https://clinic-backend-dtq1.onrender.com)  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+The Clinic Management System is a web application designed to **streamline the management of patients, doctors, and appointments** for medical clinics. It provides a clean and user-friendly interface to handle clinic operations efficiently.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project demonstrates a **full-stack CRUD application** using a React frontend and a Node.js/Express backend. It follows best practices in:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsive UI and dynamic forms  
+- Real-time data fetching using Axios  
+- RESTful API integration  
+- Deployment-ready configuration for **Vercel** (frontend) and **Render** (backend)  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+### Frontend
+- View, add, and manage patients  
+- View, add, and manage doctors  
+- Schedule and view appointments  
+- Dynamic forms with validation  
+- Single-page navigation using React Router  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
+- RESTful API endpoints for:
+  - `/patients`  
+  - `/doctors`  
+  - `/appointments`  
+- Data validation and error handling  
+- Hosted on Render for live access  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+- **Frontend:** React, Axios, React Router, CSS  
+- **Backend:** Node.js, Express.js, MongoDB (or your database)  
+- **Deployment:** Vercel (Frontend), Render (Backend)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
